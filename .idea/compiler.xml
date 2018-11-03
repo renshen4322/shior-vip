@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shiro-01" />
+        <module name="shiro-02" />
+        <module name="shiro-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shiro-01" target="1.8" />
+      <module name="shiro-02" target="1.8" />
+      <module name="shiro-vip" target="1.8" />
+      <module name="shiro-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
